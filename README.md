@@ -1,7 +1,5 @@
 # harn-android
 
-Android terminal app for Harn. One activity hosts a local terminal.
-
 The app uses [libghostty-vt](https://github.com/ghostty-org/ghostty) for
 VT parse, scrollback, and key encoding. A JNI layer feeds a Canvas
 renderer. A local PTY runs `/system/bin/sh` as the app UID.
