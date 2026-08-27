@@ -1,0 +1,56 @@
+# OS
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# IDE / Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+.kotlin/
+.navigation/
+
+# Local SDK path and machine config
+local.properties
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Android build outputs
+*.apk
+*.aab
+*.ap_
+*.aar
+*.dex
+*.class
+*.hprof
+captures/
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+
+# NDK / CMake
+.cxx/
+**/.cxx/
+.externalNativeBuild/
+**/.externalNativeBuild/
+
+# Native vendor (rebuilt by scripts/build-libghostty-vt.sh)
+/native/tools/
+/native/ghostty/
+/native/out-*/
+/native/vendor/
+
+# Signing keys (never commit)
+*.jks
+*.keystore
+*.p12
+
+# Logs
+*.log

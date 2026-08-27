@@ -1,0 +1,30 @@
+harn-android
+Copyright (c) 2026 Bioto
+
+This product is licensed under the MIT License. See `LICENSE`.
+
+This product links third-party software. The notices below apply to
+those components.
+
+## libghostty-vt
+
+The Android app links a static build of libghostty-vt from Ghostty.
+
+- Project: https://github.com/ghostty-org/ghostty
+- Pinned commit: see `native/pin.env`
+- License: MIT (`licenses/ghostty-MIT.txt`)
+- Copyright: Mitchell Hashimoto, Ghostty contributors
+
+The full Ghostty GUI is not shipped. Only the virtual-terminal library
+is compiled and linked into `libharn_ghostty.so`.
+
+## AndroidX and the Android SDK
+
+The app uses AndroidX libraries and the Android SDK. Those components
+use the Apache License 2.0. See the AndroidX source and the Android
+SDK licenses on the build machine.
+
+## Zig
+
+Zig is a build-time tool. The script downloads Zig to `native/tools/`
+and does not ship Zig in the APK.
